@@ -38,7 +38,7 @@ class Textos(models.Model):
     TIPOS_CHOICES = [
         ('lesson', 'Lesson'),
         ('observation', 'Observation'),
-        ('incidente', 'Incident'),
+        ('incident', 'Incident'),
     ]
     tipo = models.CharField(max_length=100, choices=TIPOS_CHOICES)
 
